@@ -1,0 +1,24 @@
+body{
+justify-content: center;
+display: flex;
+}
+.todo{
+width: 50%;
+height:100vh;
+align-items: center;
+background-color: aqua;
+display: flex;
+flex-direction: column;
+}
+.form-tailel{
+    top: 100px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width: 700px) {
+    .todo{
+        width: 100%;
+    }
+}

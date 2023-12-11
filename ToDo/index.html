@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="stayl.css">
+</head>
+<body>
+    <div class="todo">
+        <div class="form-tailel">
+            <h1>Todo Lista</h1>
+            <form id="todoForm">
+                <label for="todoInput">Todo Title:</label>
+                <input type="text" id="todoInput" name="title" required>
+                <button type="button" onclick="addTodo()">Add Todo</button>
+                <p id="errorMessage" style="color: red; display: none;"></p>
+            </form> <div id="errorMessage" style="display: none; color: red;"></div>
+
+            <ul id="todoList"></ul>
+            <p id="deleteWarning" style="color: red; display: none;">Markera kryssrutan innan du tar bort.</p>
+        </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
